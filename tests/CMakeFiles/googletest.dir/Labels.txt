@@ -1,0 +1,13 @@
+# Target labels
+ googletest
+# Source files and their labels
+/Users/safahi/monero/tests/CMakeFiles/googletest
+/Users/safahi/monero/tests/CMakeFiles/googletest.rule
+/Users/safahi/monero/tests/CMakeFiles/googletest-complete.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/Users/safahi/monero/tests/googletest-prefix/src/googletest-stamp/googletest-update.rule

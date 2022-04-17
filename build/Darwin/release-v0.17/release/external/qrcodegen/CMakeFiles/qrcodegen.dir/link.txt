@@ -1,0 +1,2 @@
+/opt/homebrew/bin/ccache /Users/safahi/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libqrcodegen.a CMakeFiles/qrcodegen.dir/QrCode.cpp.o
+/opt/homebrew/bin/ccache /Users/safahi/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libqrcodegen.a

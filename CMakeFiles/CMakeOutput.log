@@ -1,0 +1,744 @@
+The system is: Darwin - 21.2.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/safahi/monero/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/safahi/monero/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_943a8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_943a8.dir/build.make CMakeFiles/cmTC_943a8.dir/build
+Building C object CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/safahi/monero/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_943a8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_943a8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -o cmTC_943a8 
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_943a8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_943a8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_943a8.dir/build.make CMakeFiles/cmTC_943a8.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/safahi/monero/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_943a8]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_943a8.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -o cmTC_943a8 ]
+  ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_943a8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_943a8] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_943a8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/safahi/monero/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+The system is: Darwin - 21.2.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/safahi/monero/CMakeFiles/3.23.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/safahi/monero/CMakeFiles/3.23.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e57e9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e57e9.dir/build.make CMakeFiles/cmTC_e57e9.dir/build
+Building C object CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/safahi/monero/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_e57e9
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e57e9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -o cmTC_e57e9 
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_e57e9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_e57e9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e57e9.dir/build.make CMakeFiles/cmTC_e57e9.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Users/safahi/monero/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_e57e9]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e57e9.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -o cmTC_e57e9 ]
+  ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_e57e9 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e57e9] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_e57e9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7327/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d7327.dir/build.make CMakeFiles/cmTC_d7327.dir/build
+Building CXX object CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/safahi/monero/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target arm64-apple-darwin21.2.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_d7327
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7327.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7327 
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_d7327 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-711
+BUILD 21:57:24 Nov 17 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7327/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d7327.dir/build.make CMakeFiles/cmTC_d7327.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Users/safahi/monero/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+nullptrToBoolConversion -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNeonImmediateRangeCheck -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+revert09abecef7bbf -mllvm -disable-aligned-alloc-awareness=1 -mllvm -enable-dse-memoryssa=0 -o CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.0 (clang-1300.0.29.30) default target arm64-apple-darwin21.2.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_d7327]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7327.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7327 ]
+  ignore line: [Apple clang version 13.0.0 (clang-1300.0.29.30)]
+  ignore line: [Target: arm64-apple-darwin21.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_d7327 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [12.0.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d7327] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d7327.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin21.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+Determining if the -Wl,-undefined,error linker flag is supported passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_51381/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_51381.dir/build.make CMakeFiles/cmTC_51381.dir/build
+Building C object CMakeFiles/cmTC_51381.dir/CheckLinkerFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-undefined,error  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Wl,-undefined,error -MD -MT CMakeFiles/cmTC_51381.dir/CheckLinkerFlag.c.o -MF CMakeFiles/cmTC_51381.dir/CheckLinkerFlag.c.o.d -o CMakeFiles/cmTC_51381.dir/CheckLinkerFlag.c.o -c /Users/safahi/monero/cmake/CheckLinkerFlag.c
+clang: warning: -Wl,-undefined,error: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,-undefined,error: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_51381
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51381.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-undefined,error  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_51381.dir/CheckLinkerFlag.c.o -o cmTC_51381 
+
+
+
+Determining if the function memset_s exists in the c passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5782/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c5782.dir/build.make CMakeFiles/cmTC_c5782.dir/build
+Building C object CMakeFiles/cmTC_c5782.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset_s -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_c5782.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_c5782.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_c5782.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5782
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5782.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset_s -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c5782.dir/CheckFunctionExists.c.o -o cmTC_c5782   -L/Users/safahi/monero/CMakeFiles/CMakeTmp/string.h  -Wl,-rpath,/Users/safahi/monero/CMakeFiles/CMakeTmp/string.h -lc 
+ld: warning: directory not found for option '-L/Users/safahi/monero/CMakeFiles/CMakeTmp/string.h'
+
+
+
+Determining if the function strptime exists passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_59b84/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_59b84.dir/build.make CMakeFiles/cmTC_59b84.dir/build
+Building C object CMakeFiles/cmTC_59b84.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_59b84.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_59b84.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_59b84.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_59b84
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59b84.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_59b84.dir/CheckFunctionExists.c.o -o cmTC_59b84 
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c96b2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c96b2.dir/build.make CMakeFiles/cmTC_c96b2.dir/build
+Building C object CMakeFiles/cmTC_c96b2.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_c96b2.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c96b2.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c96b2.dir/CheckIncludeFile.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c96b2
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c96b2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c96b2.dir/CheckIncludeFile.c.o -o cmTC_c96b2 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a507/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6a507.dir/build.make CMakeFiles/cmTC_6a507.dir/build
+Building C object CMakeFiles/cmTC_6a507.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_6a507.dir/src.c.o -MF CMakeFiles/cmTC_6a507.dir/src.c.o.d -o CMakeFiles/cmTC_6a507.dir/src.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6a507
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a507.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6a507.dir/src.c.o -o cmTC_6a507 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a511f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a511f.dir/build.make CMakeFiles/cmTC_a511f.dir/build
+Building C object CMakeFiles/cmTC_a511f.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_a511f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a511f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a511f.dir/CheckSymbolExists.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a511f
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a511f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a511f.dir/CheckSymbolExists.c.o -o cmTC_a511f 
+
+
+File /Users/safahi/monero/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test _march=armv8_a+crypto_cxx succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d8520/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d8520.dir/build.make CMakeFiles/cmTC_d8520.dir/build
+Building CXX object CMakeFiles/cmTC_d8520.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_march=armv8_a+crypto_cxx  -fvisibility=default  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -march=armv8-a+crypto -MD -MT CMakeFiles/cmTC_d8520.dir/src.cxx.o -MF CMakeFiles/cmTC_d8520.dir/src.cxx.o.d -o CMakeFiles/cmTC_d8520.dir/src.cxx.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d8520
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8520.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d8520.dir/src.cxx.o -o cmTC_d8520 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _march=armv8_a+crypto_c succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76ee2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76ee2.dir/build.make CMakeFiles/cmTC_76ee2.dir/build
+Building C object CMakeFiles/cmTC_76ee2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_march=armv8_a+crypto_c  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -march=armv8-a+crypto -MD -MT CMakeFiles/cmTC_76ee2.dir/src.c.o -MF CMakeFiles/cmTC_76ee2.dir/src.c.o.d -o CMakeFiles/cmTC_76ee2.dir/src.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_76ee2
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76ee2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_76ee2.dir/src.c.o -o cmTC_76ee2 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6285f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6285f.dir/build.make CMakeFiles/cmTC_6285f.dir/build
+Building CXX object CMakeFiles/cmTC_6285f.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_ATOMICS  -fvisibility=default -march=armv8-a+crypto  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_6285f.dir/src.cxx.o -MF CMakeFiles/cmTC_6285f.dir/src.cxx.o.d -o CMakeFiles/cmTC_6285f.dir/src.cxx.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6285f
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6285f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6285f.dir/src.cxx.o -o cmTC_6285f 
+
+
+Source file was:
+
+#include <cstdint>
+#include <atomic>
+int main() {
+  std::atomic<uint64_t> a;
+  a.is_lock_free();
+}
+Determining if the CXX compiler accepts the flag -march=armv8-a+crypto passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_be22a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_be22a.dir/build.make CMakeFiles/cmTC_be22a.dir/build
+Building CXX object CMakeFiles/cmTC_be22a.dir/DummyCXXFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fvisibility=default -march=armv8-a+crypto -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_be22a.dir/DummyCXXFile.cxx.o -MF CMakeFiles/cmTC_be22a.dir/DummyCXXFile.cxx.o.d -o CMakeFiles/cmTC_be22a.dir/DummyCXXFile.cxx.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_be22a
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be22a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_be22a.dir/DummyCXXFile.cxx.o -o cmTC_be22a 
+
+
+
+Performing C SOURCE FILE Test _Werror__Wformat_c succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90fb5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_90fb5.dir/build.make CMakeFiles/cmTC_90fb5.dir/build
+Building C object CMakeFiles/cmTC_90fb5.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_Werror__Wformat_c  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -Wformat -MD -MT CMakeFiles/cmTC_90fb5.dir/src.c.o -MF CMakeFiles/cmTC_90fb5.dir/src.c.o.d -o CMakeFiles/cmTC_90fb5.dir/src.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_90fb5
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90fb5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_90fb5.dir/src.c.o -o cmTC_90fb5 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__Wformat_cxx succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_497f7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_497f7.dir/build.make CMakeFiles/cmTC_497f7.dir/build
+Building CXX object CMakeFiles/cmTC_497f7.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_Werror__Wformat_cxx  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -Wformat -MD -MT CMakeFiles/cmTC_497f7.dir/src.cxx.o -MF CMakeFiles/cmTC_497f7.dir/src.cxx.o.d -o CMakeFiles/cmTC_497f7.dir/src.cxx.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_497f7
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_497f7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_497f7.dir/src.cxx.o -o cmTC_497f7 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__Wformat_security_c succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d5392/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d5392.dir/build.make CMakeFiles/cmTC_d5392.dir/build
+Building C object CMakeFiles/cmTC_d5392.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_Werror__Wformat_security_c  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -Wformat-security -MD -MT CMakeFiles/cmTC_d5392.dir/src.c.o -MF CMakeFiles/cmTC_d5392.dir/src.c.o.d -o CMakeFiles/cmTC_d5392.dir/src.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d5392
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5392.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d5392.dir/src.c.o -o cmTC_d5392 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__Wformat_security_cxx succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1e03a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1e03a.dir/build.make CMakeFiles/cmTC_1e03a.dir/build
+Building CXX object CMakeFiles/cmTC_1e03a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_Werror__Wformat_security_cxx  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -Wformat-security -MD -MT CMakeFiles/cmTC_1e03a.dir/src.cxx.o -MF CMakeFiles/cmTC_1e03a.dir/src.cxx.o.d -o CMakeFiles/cmTC_1e03a.dir/src.cxx.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e03a
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e03a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1e03a.dir/src.cxx.o -o cmTC_1e03a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__fstack_protector_c succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2fde4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2fde4.dir/build.make CMakeFiles/cmTC_2fde4.dir/build
+Building C object CMakeFiles/cmTC_2fde4.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_Werror__fstack_protector_c  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -fstack-protector -MD -MT CMakeFiles/cmTC_2fde4.dir/src.c.o -MF CMakeFiles/cmTC_2fde4.dir/src.c.o.d -o CMakeFiles/cmTC_2fde4.dir/src.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2fde4
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fde4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2fde4.dir/src.c.o -o cmTC_2fde4 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__fstack_protector_cxx succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_96f30/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_96f30.dir/build.make CMakeFiles/cmTC_96f30.dir/build
+Building CXX object CMakeFiles/cmTC_96f30.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_Werror__fstack_protector_cxx  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -fstack-protector -MD -MT CMakeFiles/cmTC_96f30.dir/src.cxx.o -MF CMakeFiles/cmTC_96f30.dir/src.cxx.o.d -o CMakeFiles/cmTC_96f30.dir/src.cxx.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96f30
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96f30.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_96f30.dir/src.cxx.o -o cmTC_96f30 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _Werror__fstack_protector_strong_c succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8ccc3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8ccc3.dir/build.make CMakeFiles/cmTC_8ccc3.dir/build
+Building C object CMakeFiles/cmTC_8ccc3.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_Werror__fstack_protector_strong_c  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -fstack-protector-strong -MD -MT CMakeFiles/cmTC_8ccc3.dir/src.c.o -MF CMakeFiles/cmTC_8ccc3.dir/src.c.o.d -o CMakeFiles/cmTC_8ccc3.dir/src.c.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8ccc3
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ccc3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8ccc3.dir/src.c.o -o cmTC_8ccc3 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test _Werror__fstack_protector_strong_cxx succeeded with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff49e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ff49e.dir/build.make CMakeFiles/cmTC_ff49e.dir/build
+Building CXX object CMakeFiles/cmTC_ff49e.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_Werror__fstack_protector_strong_cxx  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -Werror -fstack-protector-strong -MD -MT CMakeFiles/cmTC_ff49e.dir/src.cxx.o -MF CMakeFiles/cmTC_ff49e.dir/src.cxx.o.d -o CMakeFiles/cmTC_ff49e.dir/src.cxx.o -c /Users/safahi/monero/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ff49e
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff49e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ff49e.dir/src.cxx.o -o cmTC_ff49e 
+
+
+Source file was:
+int main() { return 0; }
+Determining if the -pie linker flag is supported passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_769b3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_769b3.dir/build.make CMakeFiles/cmTC_769b3.dir/build
+Building C object CMakeFiles/cmTC_769b3.dir/CheckLinkerFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -pie  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk   -pie -MD -MT CMakeFiles/cmTC_769b3.dir/CheckLinkerFlag.c.o -MF CMakeFiles/cmTC_769b3.dir/CheckLinkerFlag.c.o.d -o CMakeFiles/cmTC_769b3.dir/CheckLinkerFlag.c.o -c /Users/safahi/monero/cmake/CheckLinkerFlag.c
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+Linking C executable cmTC_769b3
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_769b3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -pie  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_769b3.dir/CheckLinkerFlag.c.o -o cmTC_769b3 
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+
+
+
+Determining if the CXX compiler accepts the flag -mfix-cortex-a53-835769 passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2fe2d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2fe2d.dir/build.make CMakeFiles/cmTC_2fe2d.dir/build
+Building CXX object CMakeFiles/cmTC_2fe2d.dir/DummyCXXFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=inline-asm -Wno-reorder -Wno-missing-field-initializers  -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -mfix-cortex-a53-835769 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_2fe2d.dir/DummyCXXFile.cxx.o -MF CMakeFiles/cmTC_2fe2d.dir/DummyCXXFile.cxx.o.d -o CMakeFiles/cmTC_2fe2d.dir/DummyCXXFile.cxx.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/DummyCXXFile.cxx
+Linking CXX executable cmTC_2fe2d
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe2d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fvisibility=default -march=armv8-a+crypto -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=inline-asm -Wno-reorder -Wno-missing-field-initializers  -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -mfix-cortex-a53-835769 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -pie   CMakeFiles/cmTC_2fe2d.dir/DummyCXXFile.cxx.o -o cmTC_2fe2d 
+clang: warning: argument unused during compilation: '-pie' [-Wunused-command-line-argument]
+
+
+
+Determining if the function rl_filename_completion_function exists passed with the following output:
+Change Dir: /Users/safahi/monero/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6b427/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6b427.dir/build.make CMakeFiles/cmTC_6b427.dir/build
+Building C object CMakeFiles/cmTC_6b427.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -march=armv8-a+crypto -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=inline-asm -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -mfix-cortex-a53-835769 -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -MD -MT CMakeFiles/cmTC_6b427.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6b427.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6b427.dir/CheckFunctionExists.c.o -c /opt/homebrew/Cellar/cmake/3.23.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6b427
+/opt/homebrew/Cellar/cmake/3.23.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b427.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -march=armv8-a+crypto -fno-strict-aliasing -D_GNU_SOURCE   -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Wno-error=extra -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-unused-variable -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=inline-asm -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes  -fPIC  -Wformat -Wformat-security -fstack-protector -fstack-protector-strong -fno-strict-aliasing -mfix-cortex-a53-835769 -DCHECK_FUNCTION_EXISTS=rl_filename_completion_function -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6b427.dir/CheckFunctionExists.c.o -o cmTC_6b427  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib/libreadline.tbd 
+
+
+
+Looking for a ASM-ATT compiler passed with the following output:
+-- The ASM-ATT compiler identification is Clang with GNU-like command-line
+-- Found assembler: /Library/Developer/CommandLineTools/usr/bin/as
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/safahi/monero/src/crypto/wallet/CMakeFiles/CheckASM-ATT
+

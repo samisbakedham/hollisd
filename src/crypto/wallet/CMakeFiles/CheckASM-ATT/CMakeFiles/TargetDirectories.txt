@@ -1,0 +1,2 @@
+/Users/safahi/monero/src/crypto/wallet/CMakeFiles/CheckASM-ATT/CMakeFiles/edit_cache.dir
+/Users/safahi/monero/src/crypto/wallet/CMakeFiles/CheckASM-ATT/CMakeFiles/rebuild_cache.dir

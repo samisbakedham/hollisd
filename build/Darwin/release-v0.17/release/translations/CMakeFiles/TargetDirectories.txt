@@ -1,0 +1,3 @@
+/Users/safahi/monero/build/Darwin/release-v0.17/release/translations/CMakeFiles/generate_translations_header.dir
+/Users/safahi/monero/build/Darwin/release-v0.17/release/translations/CMakeFiles/edit_cache.dir
+/Users/safahi/monero/build/Darwin/release-v0.17/release/translations/CMakeFiles/rebuild_cache.dir

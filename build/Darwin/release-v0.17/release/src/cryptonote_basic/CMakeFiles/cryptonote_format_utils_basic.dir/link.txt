@@ -1,0 +1,2 @@
+/opt/homebrew/bin/ccache /Users/safahi/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcryptonote_format_utils_basic.a CMakeFiles/obj_cryptonote_format_utils_basic.dir/cryptonote_format_utils_basic.cpp.o
+/opt/homebrew/bin/ccache /Users/safahi/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcryptonote_format_utils_basic.a
